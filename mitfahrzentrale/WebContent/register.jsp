@@ -50,10 +50,10 @@
         <table cellpadding="3pt">
             <tr>
                 <td>Emailadresse</td>
-                <td><input type="text" name="userSurname" size="30"></td>
+                <td><input type="text" name="userSurname" size="25"></td>
             </tr><tr>
                 <td>Passwort</td>
-                <td><input type="password" name="password1" size="30"></td>
+                <td><input type="password" name="password1" size="25"></td>
             </tr>
         </table><input type="submit" name="submit" class="submitButton" value="Anmelden">
         <p></p>
