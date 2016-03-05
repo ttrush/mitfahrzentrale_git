@@ -86,3 +86,16 @@ h1 {
     overflow:scroll;
     background-color: #e6e6e6;
 }
+
+.ChangeData {
+	align:left;
+    float:left;
+    width:45%;
+    height:100%;
+    border-right:1px #999 solid;
+    border-top:1px #999 solid;
+    border-bottom:1px #999 solid;
+    background-color: #e6e6e6;
+    border: 2px solid #737373;
+}
+}
