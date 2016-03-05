@@ -9,15 +9,31 @@
         <servlet-name>User</servlet-name>
         <servlet-class>com.jwt.hibernate.controller.UserControllerServlet</servlet-class>
     </servlet>
+    
+        <servlet>
+        <display-name>Angebot_hinzufuegen</display-name>
+        <servlet-name>Angebot_hinzufuegen</servlet-name>
+        <servlet-class>com.jwt.hibernate.controller.OfferControllerServlet</servlet-class>
+    </servlet>
+    
     <servlet>
         <display-name>Success</display-name>
         <servlet-name>Success</servlet-name>
         <servlet-class>com.jwt.hibernate.controller.Success</servlet-class>
     </servlet>
+    
     <servlet-mapping>
         <servlet-name>User</servlet-name>
         <url-pattern>/register</url-pattern>
     </servlet-mapping>
+
+    
+    <servlet-mapping>
+        <servlet-name>Angebot_hinzufuegen</servlet-name>
+        <url-pattern>/Angebot_hinzufuegen</url-pattern>
+    </servlet-mapping>
+
+    
     <servlet-mapping>
         <servlet-name>Success</servlet-name>
         <url-pattern>/Success</url-pattern>

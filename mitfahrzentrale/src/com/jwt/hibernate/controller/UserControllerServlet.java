@@ -23,6 +23,10 @@ public class UserControllerServlet extends HttpServlet {
         String email = request.getParameter("email");
  
         HttpSession session = request.getSession(true);
+        
+        response.sendRedirect(response.encodeRedirectUrl("Angebot_hinzufuegen.jsp")); // nach einem Submit wird hier testweise auf die Seite Angebot_hinzufuegen weitergeleitet.
+        
+        
         try {
             UserDAO userDAO = new UserDAO();
             userDAO.addUserDetails(userSurname, userFamilyname, password, email);

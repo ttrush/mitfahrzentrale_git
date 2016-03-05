@@ -14,5 +14,6 @@
         <property name="format_sql">true</property>
         <property name="hbm2ddl.auto">update</property> <!-- Tabellen werden nur neu erzeugt, wenn diese noch nicht da sind. Sonst gibts nur nen update -->
         <mapping resource="com/jwt/hibernate/bean/user.hbm.xml" />
+        <mapping resource="com/jwt/hibernate/bean/offer.hbm.xml" />
     </session-factory>
 </hibernate-configuration>
