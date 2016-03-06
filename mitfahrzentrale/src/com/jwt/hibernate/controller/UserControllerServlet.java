@@ -24,7 +24,7 @@ public class UserControllerServlet extends HttpServlet {
  
         HttpSession session = request.getSession(true);
         
-        response.sendRedirect(response.encodeRedirectUrl("Angebot_hinzufuegen.jsp")); // nach einem Submit wird hier testweise auf die Seite Angebot_hinzufuegen weitergeleitet.
+        response.sendRedirect(response.encodeRedirectUrl("main.jsp")); // nach einem Submit wird hier testweise auf die Seite Angebot_hinzufuegen weitergeleitet.
         
         
         try {

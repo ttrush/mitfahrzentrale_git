@@ -10,7 +10,7 @@
 <body>
 <div class="directoryPanelList">
 <div class="Main">
-	<form action="../">
+	<form action="../Angebot_hinzufuegen.jsp">
 		<input type="submit" name="submit" class="submitButton" value="Fahrt anbieten" style="width: 201px; ">
 	</form>	
 	<form action="../">
@@ -21,6 +21,9 @@
 	</form>
 	<form action="../change.jsp">
 		<input type="submit" name="submit" class="submitButton" value="Daten ändern" style="width: 201px; ">
+	</form>
+	<form action="../register.jsp">
+		<input type="submit" name="submit" class="submitButton" value="Abmelden" style="width: 201px; ">
 	</form>
 </div>
 </div>
